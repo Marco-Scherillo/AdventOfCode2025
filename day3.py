@@ -24,7 +24,7 @@ def find_highest_jultage(bank):
                 largest_sum = current
     return largest_sum
 
-def find_k_largest(bank, k): # greedy apreach 
+def find_k_largest(bank, k): # greedy
     result = []
     start = 0
     k_remaining = k
